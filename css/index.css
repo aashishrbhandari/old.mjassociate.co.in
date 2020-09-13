@@ -7,3 +7,12 @@
     padding-bottom: 125px;
 }
 
+.useful-link-list li,
+.social-media-list li,
+.contact-us-list li{
+    cursor: pointer;
+}
+
+.useful-link-list {
+    list-style-image: url('/images/svg-icons/list-indicator.svg');
+}
