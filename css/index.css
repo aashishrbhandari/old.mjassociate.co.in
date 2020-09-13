@@ -1,5 +1,9 @@
-
+/*
 .intro-card {
-    width: auto; 
-    
+    width: auto;     
 }
+*/
+.navbar-component {
+    padding-bottom: 60px;
+}
+

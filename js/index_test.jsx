@@ -1,3 +1,0 @@
-navbar = <div>
-    sdasd
-</div>
