@@ -4,19 +4,13 @@
 }
 */
 .navbar-component {
-    padding-bottom: 125px;
+    padding-bottom: 100px;
 }
-
-
 
 .useful-link-list li,
 .social-media-list li,
 .contact-us-list li{
     cursor: pointer;
-}
-
-.useful-link-list {
-    list-style-image: url('/images/svg-icons/list-indicator.svg');
 }
 
 footer .contact-details-list .list-group-item {
