@@ -3,11 +3,11 @@
 // }
 
 async function load_navbar() {
-    document.querySelector("div.navbar-component").innerHTML = await (await fetch('navbar.html')).text();
+    document.querySelector("div.navbar-component").innerHTML = await (await fetch('/navbar.html')).text();
 }
 
 async function load_footer() {
-    document.querySelector("div.footer-component").innerHTML = await (await fetch('footer.html')).text();
+    document.querySelector("div.footer-component").innerHTML = await (await fetch('/footer.html')).text();
 }
 
 load_navbar();
