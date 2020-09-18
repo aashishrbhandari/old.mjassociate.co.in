@@ -2,47 +2,40 @@
     <div class="container">
         <div class="card-group">
             <div class="card">
-                <div class="card-header">
+                <div class="card-header bg-transparent">
                     <h5>Useful Links</h5>
                 </div>
-                <div class="card-body text-left">
-                    <ul class="list-group list-group-flush useful-link-list">
-                        <li class="list-group-item list-group-item-action">Supreme Court of India</li>
-                        <li class="list-group-item list-group-item-action">Bombay High Court</li>
-                        <li class="list-group-item list-group-item-action">Passport link</li>
-                        <li class="list-group-item list-group-item-action">National Consumer Helpline</li>
-                        <li class="list-group-item list-group-item-action">Ministry of Company Affairs</li>
-                        <li class="list-group-item list-group-item-action">RERA</li>
-                    </ul>
-                </div>
+                <ul class="list-group list-group-flush useful-link-list">
+                    <li class="list-group-item list-group-item-action">Supreme Court of India</li>
+                    <li class="list-group-item list-group-item-action">Bombay High Court</li>
+                    <li class="list-group-item list-group-item-action">Passport link</li>
+                    <li class="list-group-item list-group-item-action">National Consumer Helpline</li>
+                    <li class="list-group-item list-group-item-action">Ministry of Company Affairs</li>
+                    <li class="list-group-item list-group-item-action">RERA</li>
+                </ul>
             </div>
             <div class="card">
-                <div class="card-header">
-                    <h5>Social Media</h5>
-                </div>
-                <div class="card-body text-left">
-                    <ul class="list-group list-group-flush social-media-list">
-                        <li class="list-group-item list-group-item-action">Twitter</li>
-                        <li class="list-group-item list-group-item-action">LinkedIn</li>
-                        <li class="list-group-item list-group-item-action">Facebook</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
+                <div class="card-header bg-transparent">
                     <h5>Contact Us</h5>
                 </div>
                 <div class="card-body">
                     <ul class="list-group list-group-flush contact-details-list">
                         <li class="list-group-item">
-                            <strong>Office:</strong>
+                            <div>
+                                <img src="/images/icons/office-building.png" width="30" height="30">
+                                <strong>Office:</strong>
+                            </div>
                             <p>
-                                Office no.12, 18/20, Kachwala Building, V V Chandan Street, Opp. Jai Hind Hotel, Masjid
-                                Bunder, Mumbai – 400 003
+                                Office no.12, 18/20, Kachwala Building, <br>
+                                V V Chandan Street, Opp. Jai Hind Hotel, <br>
+                                Masjid Bunder, Mumbai – 400 003
                             </p>
                         </li>
                         <li class="list-group-item">
-                            <strong>Phone No.:</strong>
+                            <div>
+                                <img src="/images/icons/phone.png" width="30" height="30">
+                                <strong>PH No.:</strong>
+                            </div>
                             <ul class="list-group list-group-flush contact-details-list">
                                 <li class="list-group-item">
                                     +91 9773264217
@@ -56,7 +49,10 @@
                             </ul>
                         </li>
                         <li class="list-group-item">
-                            <strong>E-mail:</strong>
+                            <div>
+                                <img src="/images/icons/" width="30" height="30">
+                                <strong>Email.:</strong>
+                            </div>
                             <p>
                                 Mjassociate19@gmail.com
                             </p>
@@ -65,7 +61,7 @@
                 </div>
             </div>
             <div class="card">
-                <div class="card-header">
+                <div class="card-header bg-transparent">
                     <h5>Map</h5>
                 </div>
                 <div class="card-body">
@@ -81,4 +77,26 @@
                 </div>
             </div>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="attentionModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Attention</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Hello All
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Accept</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 </footer>
