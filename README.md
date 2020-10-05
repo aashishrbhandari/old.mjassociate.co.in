@@ -1,4 +1,4 @@
-# An Older Version Of `MJ & Associates` Officail Web Sites: 
+# An Older Version Of `MJ & Associates` Official Web Sites: 
 # (MJ & Associate) [http://old.mjassociate.co.in]
 
 > I created it in the inital start
